@@ -2,6 +2,8 @@
   border: 1px solid white;
   color: white;
   border-radius: 10px;
+  width: 120px;
+  padding: 20px;
 
   // padding: 5px;
   -webkit-transition: border-radius 1s;
@@ -10,8 +12,8 @@
 
   .button_cv:hover {
     border-radius: 25px;
-    background-color: white;
-      opacity: 0.4;
+    color: white;
+
     // padding: 10px;
 
     -webkit-transition: border-radius 1s;
