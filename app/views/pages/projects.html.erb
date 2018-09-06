@@ -10,20 +10,30 @@
 
   <div class="banner-content">
 
-    <%= link_to "CV", "https://standardresume.co/careersummitlewagon", target: "_blank", class: "btn btn-primary" %>
-    <%= link_to "Repository", "https://standardresume.co/careersummitlewagon", target: "_blank", class: "btn btn-primary" %>
+    <%= link_to "CV", "https://standardresume.co/careersummitlewagon", target: "_blank", class: "btn button_cv" %>
+
+    <div class="dropdown">
+      <a class="btn btn-secondary dropdown-toggle" href="#" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Projects<i class="fas fa-caret-down"></i>
+      </a>
+
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li><a class="dropdown-item" href="http://www.recipeasy.de" target="_blank">Recipeasy</a></li>
+        <li><a class="dropdown-item" href="#" target="_blank">MrCocktail</a></li>
+        <li><a class="dropdown-item" href="#" target="_blank">AirBnb-Pool</a></li>
+      </div>
+    </div>
 
     <h1>Hey there, nice to see you.</h1>
     <p>If you are looking for an ambitious, self-taught Junior Developer, do not hesitate to reach out and leave a message. </p>
 
     <div class="nav_bar">
       <%= link_to "", "#", class: "icons far fa-envelope", id: "email", remote: true %>
-      <%= link_to "", "#", class: "icons fas fa-phone", remote: true%>
-      <%= link_to "", "https://github.com/JayJay2018", class: "icons fab fa-github" %>
-      <%= link_to "", "https://www.linkedin.com/in/jascha-rafael-franke/", class: "icons fab fa-linkedin" %>
+      <%= link_to "", "#", class: "icons fas fa-phone", id: "phone", remote: true%>
+      <%= link_to "", "https://github.com/JayJay2018", target: "_blank", class: "icons fab fa-github" %>
+      <%= link_to "", "https://www.linkedin.com/in/jascha-rafael-franke/", target: "_blank", class: "icons fab fa-linkedin" %>
     </div>
 
   </div>
 </div>
-
 

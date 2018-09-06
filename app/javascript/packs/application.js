@@ -11,3 +11,7 @@ console.log('Hello World from Webpacker')
 import { SendEmail} from "components/popup";
 SendEmail();
 import "bootstrap";
+import { ShowPhoneNu } from "components/popup";
+ShowPhoneNu();
+import { ToggleDropdown } from "components/repository_dropd";
+ToggleDropdown();
