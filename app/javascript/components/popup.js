@@ -11,7 +11,7 @@ function SendEmail () {
       escapeKey: 'Ok',
       backgroundDismiss: true,
       title: 'Email',
-      content: `<strong>hello@jrfranke.com</strong>`,
+      content: `<strong>hola@11once.de</strong>`,
       theme: 'modern',
       buttons: {
           Ok: {
@@ -42,7 +42,7 @@ function ShowPhoneNu () {
       escapeKey: 'Ok',
       backgroundDismiss: true,
       title: 'Phone',
-      content: `<strong>+49 151 1577 6592</strong><button><i class="far fa-copy"></i></button>`,
+      content: `<strong>+49 151 1577 6592</strong>`,
       theme: 'modern',
       buttons: {
           Ok: {
