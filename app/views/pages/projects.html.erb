@@ -1,26 +1,27 @@
+<!--  <div class="sidenav">
+    <%#=# image_tag "https://avatars1.githubusercontent.com/u/40575245?v=4", class: "avatar" %>
+
+    <div >
+      <p class="name">Jascha Rafael Franke</p>
+    </div>
+  </div> -->
 
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://source.unsplash.com/idmvPhF8t4E/1600x900');">
-  <div class="sidenav">
-    <%= image_tag "https://avatars1.githubusercontent.com/u/40575245?v=4", class: "avatar" %>
-    <div class="links">
-      <%= button_tag "", href: "#", class: "icons far fa-envelope", id:" icon1" %>
-      <%= button_tag "", href: "#", class: "icons fas fa-phone", id:" icon2" %>
-      <%= button_tag "", href: "#", class: "icons fab fa-github", id:" icon3" %>
-      <%= button_tag "", href: "#", class: "icons fab fa-linkedin", id:" icon4" %>
-    </div>
-    <div class="name">
-      <p>Jascha Rafael Franke</p>
-    </div>
-  </div>
+
   <div class="banner-content">
 
     <%= link_to "CV", "https://standardresume.co/careersummitlewagon", target: "_blank", class: "btn btn-primary" %>
-    <%= link_to "Projects", "https://standardresume.co/careersummitlewagon", target: "_blank", class: "btn btn-primary" %>
+    <%= link_to "Repository", "https://standardresume.co/careersummitlewagon", target: "_blank", class: "btn btn-primary" %>
 
     <h1>Hey there, nice to see you.</h1>
     <p>If you are looking for an ambitious, self-taught Junior Developer, do not hesitate to reach out and leave a message. </p>
 
-
+    <div class="links">
+      <%= link_to "", "#", class: "icons far fa-envelope", id: "email", remote: true %>
+      <%= link_to "", "#", class: "icons fas fa-phone", remote: true%>
+      <%= link_to "", "https://github.com/JayJay2018", class: "icons fab fa-github" %>
+      <%= link_to "", "https://www.linkedin.com/in/jascha-rafael-franke/", class: "icons fab fa-linkedin" %>
+    </div>
 
   </div>
 </div>
