@@ -1,20 +1,83 @@
 .button_cv {
   border: 1px solid white;
   color: white;
-  border-radius: 10px;
-  width: 120px;
-  padding: 20px;
+  border-radius: 20px;
+  width: 100px;
+  padding: 10px;
 
   // padding: 5px;
-  -webkit-transition: border-radius 1s;
+  -webkit-transition: padding 1s;
   outline:none;
   }
 
   .button_cv:hover {
     border-radius: 25px;
-    color: white;
+    background-color: lightgray;
+    opacity: 0.5;
 
     // padding: 10px;
 
     -webkit-transition: border-radius 1s;
   }
+
+.projects_links > a {
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.button_red {
+
+  color: white;
+  border-radius: 20px;
+  width: 120px;
+  padding: 10px;
+  background-color: #D63037;
+  transition: background-color 0.5s ease;
+  outline:none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.button_red:hover {
+  background: #3BA99C;
+  color: white;
+
+}
+
+.button_mint {
+
+  color: #8AA399;
+  border-radius: 20px;
+  width: 120px;
+  padding: 10px;
+  background-color: #B0FF92;
+  transition: background-color 0.5s ease;
+  outline:none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.button_mint:hover {
+  color: #8AA399;
+  background: #DBF4A7;
+
+}
+
+.button_purple {
+
+  color: white;
+  border-radius: 20px;
+  width: 120px;
+  padding: 10px;
+  background-color: #7D84B2;
+  transition: background-color 0.5s ease;
+  outline:none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.button_purple:hover {
+  color: white;
+  background: #FC7753;
+
+}
