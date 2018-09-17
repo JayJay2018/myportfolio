@@ -22,7 +22,14 @@
   opacity: 1;
 }
 .footer .fa-heart {
-  color: #D23333;
+  color: red;
+}
+
+.footer-copyright {
+  font-size: 15px;
+}
+.footer-copyright:hover .fa-heart {
+  color: black;
 }
 
 .nav_bar > a {
