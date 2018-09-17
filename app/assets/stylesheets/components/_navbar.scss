@@ -66,18 +66,23 @@
   font-size: 14px;
 }
 .navbar-jay-link:hover {
-  color: #da552f;
+  color: #03D39E;
   text-decoration: none;
 }
 
+.active {
+  color: #03D39E;
+}
+
 .button_ {
-  background: #989898;
+  background: #ECEBE4;
   // box-shadow:10px 10px 0 rgba(0,0,0,.5);
   display:inline-block;
   font-size: 14px;
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 .parallelogram{
@@ -89,6 +94,11 @@
   transform: skew(20deg);
 }
 
+.button_:hover {
+  background: #03D39E;
+  color: white;
+
+}
 /* Dropdown menu */
 .navbar-jay-dropdown-menu {
   margin-top: 15px;
