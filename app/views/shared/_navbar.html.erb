@@ -9,10 +9,11 @@
 
   <!-- Right Navigation -->
   <div class="navbar-jay-right hidden-xs hidden-sm">
-
-    <a href="" class="navbar-jay-item navbar-jay-link">Portfolio</a>
-    <a href="" class="navbar-jay-item navbar-jay-link">About</a>
-    <a href="" class="navbar-jay-item navbar-jay-link">Hire me!</a>
+    <%= link_to "Portfolio", "#", class: "navbar-jay-item navbar-jay-link active"%>
+    <%= link_to "About", "#", class: "navbar-jay-item navbar-jay-link"%>
+    <%= link_to "#", class: "button_ parallelogram" do %>
+    <span class="parallelogram-fix">Hire me!</span>
+    <% end %>
 
     <!-- Profile picture with dropdown list -->
     <!-- <div class="navbar-wagon-item">

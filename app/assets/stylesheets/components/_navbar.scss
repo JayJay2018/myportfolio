@@ -10,6 +10,9 @@
   justify-content: space-between;
 }
 
+.active {
+}
+
 /* Logo and Name with Job title*/
 .navbar-jay-name {
   display: flex;
@@ -59,12 +62,31 @@
 
 /* Navbar link */
 .navbar-jay-link {
-  color: #616668;
+  color: black;
   font-size: 14px;
 }
 .navbar-jay-link:hover {
   color: #da552f;
   text-decoration: none;
+}
+
+.button_ {
+  background: #989898;
+  // box-shadow:10px 10px 0 rgba(0,0,0,.5);
+  display:inline-block;
+  font-size: 14px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.parallelogram{
+  transform: skew(-20deg);
+}
+
+.parallelogram-fix{
+  display:inline-block;
+  transform: skew(20deg);
 }
 
 /* Dropdown menu */
