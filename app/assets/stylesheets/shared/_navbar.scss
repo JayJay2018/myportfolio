@@ -10,9 +10,6 @@
   justify-content: space-between;
 }
 
-.active {
-}
-
 /* Logo and Name with Job title*/
 .navbar-jay-name {
   display: flex;
@@ -58,15 +55,22 @@
 .navbar-jay-item {
   cursor: pointer;
   padding: 0 20px;
+  outline: none;
 }
 
 /* Navbar link */
 .navbar-jay-link {
   color: black;
   font-size: 14px;
+  outline: none;
 }
 .navbar-jay-link:hover {
   color: #03D39E;
+  text-decoration: none;
+}
+
+.navbar-jay-link:visited {
+  outline: none;
   text-decoration: none;
 }
 
