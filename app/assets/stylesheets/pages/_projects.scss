@@ -145,6 +145,13 @@ body {
   opacity: 0.9;
   font-size: 24px;
 }
+
+.my_description:hover .fa-arrow-circle-right{
+  animation-name: bounceArrow;
+  animation-duration:1.4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
 .msg_me_link {
   color: black;
   font-weight: bold;
@@ -173,12 +180,17 @@ body {
 }
 
 .bounce_arrow {
-    animation-name: bounceArrow;
-    animation-duration:1.4s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
+  animation-name: bounceArrow;
+  animation-duration:1.4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
 }
 
+#flora {
+  position: absolute;
+  top: -10px;
+  left: -25px;
+}
 
 
 
