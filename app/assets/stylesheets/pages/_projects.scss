@@ -87,27 +87,51 @@
   width: 800px;
 }
 
-
-
-.jay {
-  display: none;
-}
-
-.flora {
-  display: none;
-}
-
 #me:hover {
   opacity: 0.3;
 }
 
-.test {
-  // box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-  // background:
-  //   /* top, transparent red */
-  //   linear-gradient(
-  //     rgba(255, 0, 0, 0.45),
-  //     rgba(255, 0, 0, 0.45)
-  //   );
+
+// * body *
+
+body {
+  background: white;
 }
+
+.container {
+  height: calc(100vh - 70px)
+}
+// * Project *
+
+.project {
+  margin: 30px 0px;
+}
+
+#project-overview {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+#project-overview-jay-logo {
+  z-index: 11;
+  position: absolute;
+  top: 100px;
+  left: 105px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
