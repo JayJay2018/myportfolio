@@ -1,8 +1,18 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-4 col-xs-offset-4">
-      <div class="card-projects" style="background-image: url('<%= image_path "recipeasy.png" %>')">
-        <%= image_tag "jf.png", id: "project-overview-jay-logo"%>
+      <div class="card-projects avatar-flex" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path "me.JPG" %>')">
+        <%#= image_tag "jf.png", id: "project-overview-jay-logo"%>
+        <div class="my_description">
+          <!-- <h4>Your next Junior Full Stack Developer</h4> -->
+          <p>Autodidact</p>
+          <p>Fast learner</p>
+          <p>A good soul for your team</p>
+          <div class="link_projects">
+            <p class="fas fa-arrow-circle-right bounce_arrow"></p>
+            <%= link_to "Projects", "#", class: "msg_me_link" %>
+          </div>
+        </div>
       </div>
     </div>
   </div>

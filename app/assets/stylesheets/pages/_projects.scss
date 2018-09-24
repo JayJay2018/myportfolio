@@ -118,8 +118,68 @@ body {
   position: absolute;
   top: 100px;
   left: 105px;
+}
+
+.avatar-relative {
+  position: relative;
+}
+
+.my_description {
+  position: absolute;
+  width: 100vh;
+  left: 220px;
+  top: 90px;
+}
+
+.my_description h4 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.my_description > p {
+  color: black;
+  margin-top: -20px;
+  font-weight: bolder;
+  opacity: 0.9;
+  font-size: 24px;
+}
+.msg_me_link {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.msg_me_link:hover {
+  color: black;
 
 }
+
+.fa-arrow-circle-right:before {
+  color: #03D39E;
+  margin-right: 2px;
+}
+
+.link_projects {
+  margin-top: -12px;
+}
+
+@keyframes bounceArrow {
+  0% {opacity: 1; transform: translateX(0px) scale(1);}
+  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+
+.bounce_arrow {
+    animation-name: bounceArrow;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+
 
 
 
