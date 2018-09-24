@@ -7,11 +7,12 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-console.log('Hello World from Webpacker')
-import { SendEmail} from "components/popup";
-SendEmail();
+// import { SendEmail} from "components/popup";
+// SendEmail();
 import "bootstrap";
-import { ShowPhoneNu } from "components/popup";
-ShowPhoneNu();
+// import { ShowPhoneNu } from "components/popup";
+// ShowPhoneNu();
 import { ToggleDropdown } from "components/repository_dropd";
 ToggleDropdown();
+import { ShowFloraAvatar } from "components/show_flora_avatar";
+ShowFloraAvatar();
