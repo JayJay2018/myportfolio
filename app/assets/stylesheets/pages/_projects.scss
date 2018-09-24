@@ -213,7 +213,7 @@ body {
 .one {
   position: absolute;
   top: 119px;
-  left: -105px;
+  left: -45px;
 }
 
 .two {
@@ -244,14 +244,15 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  opacity: 0.8;
+  opacity: 1.0;
   text-decoration: none;
 }
 
 .btn_yellow:hover {
   text-decoration: none;
-  opacity: 1.0;
   color: #fff;
+  background-color: #EFB9CB;
+  border-color: #EFB9CB;
 }
 
 .btn_yellow:visited {
@@ -280,13 +281,14 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  opacity: 0.8;
+  opacity: 1.0;
 }
 
 .btn_mint:hover {
   text-decoration: none;
-  opacity: 1.0;
   color: #fff;
+  background-color: #C287E8;
+  border-color: #C287E8;
 }
 
 
