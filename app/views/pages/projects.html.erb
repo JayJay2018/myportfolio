@@ -1,8 +1,8 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-4 col-xs-offset-4">
-      <div class="card-projects avatar-flex" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path "me.JPG" %>')">
-        <%#= image_tag "jf.png", id: "project-overview-jay-logo"%>
+      <div class="card-projects avatar-flex" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path "me_bw.jpg" %>')">
+        <%#= image_tag "superheroe.png", id: "project-overview-jay-logo"%>
         <div class="my_description">
           <!-- <h4>Your next Junior Full Stack Developer</h4> -->
           <p>Autodidact</p>
@@ -17,10 +17,10 @@
         <div class="team">
           <%= image_tag "flora.JPG", id: "flora", class: "avatar hidden" %>
           <div class="appear_after_dom one">
-             <%= link_to "Hire us", "#", remote: true, class: "btn_mint" %>
+             <%= button_tag "Hire us", remote: true, class: "btn btn_mint" %>
           </div>
           <div class="appear_after_dom two">
-            <%= link_to "Your next office dog", "#", remote: true, class: "btn_yellow" %>
+            <%= button_tag "Your next office dog", remote: true, class: "btn btn_yellow" %>
           </div>
         </div>
       </div>
