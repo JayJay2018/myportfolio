@@ -6,8 +6,11 @@
   background-position: center;
   color: white;
   margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   // box-shadow: 5px 5px 10px 4px rgba(0,0,0,0.5);
-  -webkit-box-shadow: -4px 2px 4px 0px rgba(3,211,158,0.5);
-  -moz-box-shadow: -4px 2px 4px 0px rgba(3,211,158,0.5);
-  box-shadow: -4px 2px 4px 0px rgba(3,211,158,0.5);
+  -webkit-box-shadow: 5px 1px 4px 0px rgba(235,148,134, 0.5);
+  -moz-box-shadow: 5px 1px 4px 0px rgba(235,148,134, 0.5);
+  box-shadow: 5px 1px 4px 0px rgba(235,148,134, 0.5);
 }

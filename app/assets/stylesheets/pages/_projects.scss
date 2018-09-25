@@ -286,9 +286,17 @@ body {
   animation-timing-function:linear;
 }
 
+.logo_projects {
+  display: none;
+}
 
+.project:hover .logo_projects{
+  display: block;
+}
 
-
+.project:hover {
+  padding: 10px;
+}
 
 
 
