@@ -286,16 +286,36 @@ body {
   animation-timing-function:linear;
 }
 
-.logo_projects {
+.button_projects {
   display: none;
+  font-size: 30px;
 }
 
-.project:hover .logo_projects{
+.project:hover .button_projects{
   display: block;
 }
 
 .project:hover {
-  padding: 10px;
+  cursor:pointer;
+  -ms-transform: scale(1.1,1.1); /* IE 9 */
+  -webkit-transform: scale(1.1,1.1); /* Safari */
+  transform: scale(1.1,1.1);
+  // -webkit-transition: transform 0.5s ease;
+}
+
+.button_projects:hover {
+  text-decoration: none;
+}
+
+@keyframes bounceButton {
+  50% { transform: scale(1.1); }
+}
+
+.project:hover .button_projects{
+  animation-name: bounceButton;
+  animation-duration:2.0s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
 }
 
 
@@ -305,27 +325,4 @@ body {
 
 
 
-
-
-
-
-// .card-projects:hover #project-overview-jay-logo{
-//   display: block;
-//   animation-name: flyingBatman;
-//   animation-duration:1.4s;
-//   animation-iteration-count:infinite;
-//   animation-timing-function:linear;
-// }
-
-// .card-projects:hover {
-// }
-
-
-
-// .flying_batman {
-//   animation-name: bounceArrow;
-//   animation-duration:1.4s;
-//   animation-iteration-count:infinite;
-//   animation-timing-function:linear;
-// }
 
