@@ -1,0 +1,17 @@
+.project {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  // box-shadow: 5px 5px 10px 4px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 1px 4px 0px rgba(235,148,134, 0.5);
+  -moz-box-shadow: 5px 1px 4px 0px rgba(235,148,134, 0.5);
+  box-shadow: 5px 1px 4px 0px rgba(235,148,134, 0.5);
+  -webkit-transition: transform 0.5s ease;
+}

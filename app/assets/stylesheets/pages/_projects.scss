@@ -1,87 +1,7 @@
-// .button_cv {
-//   border: 1px solid white;
-//   color: white;
-//   border-radius: 20px;
-//   width: 100px;
-//   padding: 10px;
-
-//   // padding: 5px;
-//   -webkit-transition: padding 1s;
-//   outline:none;
-//   }
-
-
-  // .button_cv:hover {
-  //   border-radius: 25px;
-  //   background-color: lightgray;
-  //   opacity: 0.5;
-
-  //   // padding: 10px;
-
-  //   -webkit-transition: border-radius 1s;
-  // }
-
 .projects_links > a {
   margin-right: 15px;
   margin-top: 30px;
 }
-
-// .button_red {
-
-//   color: white;
-//   border-radius: 20px;
-//   width: 120px;
-//   padding: 10px;
-//   background-color: #D63037;
-//   transition: background-color 0.5s ease;
-//   outline:none;
-//   font-size: 15px;
-//   font-weight: bolder;
-// }
-
-// .button_red:hover {
-//   background: #3BA99C;
-//   color: white;
-
-// }
-
-// .button_mint {
-
-//   color: #8AA399;
-//   border-radius: 20px;
-//   width: 120px;
-//   padding: 10px;
-//   background-color: #B0FF92;
-//   transition: background-color 0.5s ease;
-//   outline:none;
-//   font-size: 15px;
-//   font-weight: bolder;
-// }
-
-// .button_mint:hover {
-//   color: #8AA399;
-//   background: #DBF4A7;
-
-// }
-
-// .button_purple {
-
-//   color: white;
-//   border-radius: 20px;
-//   width: 120px;
-//   padding: 10px;
-//   background-color: #7D84B2;
-//   transition: background-color 0.5s ease;
-//   outline:none;
-//   font-size: 15px;
-//   font-weight: bolder;
-// }
-
-// .button_purple:hover {
-//   color: white;
-//   background: #FC7753;
-
-// }
 
 .description {
   width: 800px;
@@ -99,9 +19,15 @@ body {
 }
 
 .container {
-  height: calc(100vh - 70px)
+  min-height: calc(100vh - 70px);
+  margin: 0 auto;
+  width: 970px;
+  background: white;
+  // height: 50vh;
 }
-// * Project *
+
+
+// * First part of projects *
 
 .project {
   margin: 30px 0px;
@@ -197,16 +123,6 @@ body {
   // -moz-box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
   // box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
 }
-
-// .card-projects:hover #flora{
-//   display: block;
-//   transition-delay:1s;
-// }
-
-// .card-projects:hover .appear_after_dom{
-//   display: block;
-//   transition-delay:1s;
-// }
 
 .appear_after_dom {
   color: black;
@@ -335,28 +251,78 @@ body {
   border-color: #C287E8;
 }
 
-// .card-projects:hover #project-overview-jay-logo{
-//   display: block;
-//   animation-name: flyingBatman;
-//   animation-duration:1.4s;
-//   animation-iteration-count:infinite;
-//   animation-timing-function:linear;
-// }
+// * my introduction *
 
-// .card-projects:hover {
-// }
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 35px 0;
+  p {
+    color: black;
+    font-weight: lighter;
+    opacity: 0.9;
+    font-size: 18px;
+    margin: 0px;
+  }
+}
 
-// @keyframes flyingBatman {
-//   0% {opacity: 1; transform: translatey(0px) scale(1);}
-//   25%{opacity: 0; transform:translatey(10px) scale(0.9);}
-//   26%{opacity: 0; transform:translatey(-10px) scale(0.9);}
-//   55% {opacity: 1; transform: translatey(0px) scale(1);}
-// }
+.batman {
+  margin-right: 30px;
+  margin-top: 20px;
+}
 
-// .flying_batman {
-//   animation-name: bounceArrow;
-//   animation-duration:1.4s;
-//   animation-iteration-count:infinite;
-//   animation-timing-function:linear;
-// }
+@keyframes flyingBatman {
+  0% {opacity: 1; transform: translatey(0px) scale(1);}
+  25%{opacity: 1; transform:translatey(10px) scale(1.0);}
+  26%{opacity: 0.7; transform:translatey(-10px) scale(1.0);}
+  55% {opacity: 0; transform: translatey(0px) scale(1);}
+}
+
+.introduction:hover .batman{
+  animation-name: flyingBatman;
+  animation-duration:10.4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+.button_projects {
+  display: none;
+  font-size: 30px;
+}
+
+.project:hover .button_projects{
+  display: block;
+}
+
+.project:hover {
+  cursor:pointer;
+  -ms-transform: scale(1.1,1.1); /* IE 9 */
+  -webkit-transform: scale(1.1,1.1); /* Safari */
+  transform: scale(1.1,1.1);
+  // -webkit-transition: transform 0.5s ease;
+}
+
+.button_projects:hover {
+  text-decoration: none;
+}
+
+@keyframes bounceButton {
+  50% { transform: scale(1.1); }
+}
+
+.project:hover .button_projects{
+  animation-name: bounceButton;
+  animation-duration:2.0s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+
+
+
+
+
+
+
 

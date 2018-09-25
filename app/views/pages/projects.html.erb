@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
-    <div class="col-xs-4 col-xs-offset-4">
-      <div class="card-projects avatar-flex" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path "me_bw.jpg" %>')">
+    <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4">
+      <div class="card-myself avatar-flex" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path "me_bw.jpg" %>')">
         <%#= image_tag "superheroe.png", id: "project-overview-jay-logo"%>
         <div class="my_description">
           <!-- <h4>Your next Junior Full Stack Developer</h4> -->
@@ -26,23 +26,35 @@
       </div>
     </div>
   </div>
-</div>
-<!-- <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://source.unsplash.com/idmvPhF8t4E/1600x900');">
-
-  <div class="banner-content">
-
-
-    <%#= link_to "CV", "https://standardresume.co/careersummitlewagon", target: "_blank", class: "btn button_cv" %>
-    <div class="projects_links">
-      <%#= link_to "Recipeasy", "http://www.recipeasy.de", target: "_blank", class: "btn button_mint" %>
-      <%#= link_to "MrCocktail", "https://jays-awesome-cocktails.herokuapp.com", target: "_blank", class: "btn button_purple" %>
-      <%#= link_to "AirBnB-Pool", "http://github.com/thefabian/AIRBNB_POOL_CLONE", target: "_blank", class: "btn button_red" %>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="introduction">
+        <%= image_tag "superheroe.png", class: "batman" %>
+        <p>My name is Jascha Rafael Franke and I'm a 27-year-old Junior Full Stack Developer. Before I started my coding career I studied economics and business administration in Mannheim and gained a lot of experience as a Lead-Manager and IT-Consultant Intern. I also founded my own wine importing business in 2015 with a focus on the mid and high market of Spain. As knowledge is crucial, I have become a sommelier in early 2017.</p>
+      </div>
     </div>
-    <div>
-      <h1>Hey there, nice to see you.</h1>
-      <p class="description">If you are looking for an ambitious, self-taught Junior Developer or at least an office dog, do not hesitate to reach out and leave a message . </p>
-    </div>
-
   </div>
-</div> -->
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <div class="project" style="background-image: url('<%= image_path "recipeasy.png" %>')">
+        <%= link_to "", "http://www.recipeasy.de", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <div class="project" style="background-image: url('<%= image_path "mrcocktail.png" %>')">
+        <%= link_to "", "http://www.jays-awesome-cocktails.herokuapp.com", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <div class="project" style="background-image: url('<%= image_path "AirBnBPool.png" %>')">
+        <%= link_to "", "https://github.com/thefabian/AIRBNB_POOL_CLONE", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 
