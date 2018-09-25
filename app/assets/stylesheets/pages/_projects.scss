@@ -18,29 +18,15 @@ body {
   background: white;
 }
 
-.container_1 {
+.container {
   min-height: calc(100vh - 70px);
-  margin: 0 auto;
-  width: 970px;
-  background: lightgray;
-  // height: 50vh;
-}
-
-.container_2 {
-  // min-height: calc(100vh - 70px);
   margin: 0 auto;
   width: 970px;
   background: white;
   // height: 50vh;
 }
 
-.grey-wrapper {
-  background-color: lightgray;
-}
 
-.white-wrapper {
-  background-color: white;
-}
 // * First part of projects *
 
 .project {
