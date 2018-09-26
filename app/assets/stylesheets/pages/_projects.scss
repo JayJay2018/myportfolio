@@ -19,12 +19,20 @@ body {
 }
 
 .container {
-  min-height: calc(100vh - 70px);
+  min-height: calc(70vh - 70px);
   margin: 0 auto;
   width: 970px;
   background: white;
   // height: 50vh;
 }
+
+// .container {
+//   min-height: calc(100vh - 70px);
+//   margin: 0 auto;
+//   width: 970px;
+//   background: white;
+//   // height: 50vh;
+// }
 
 
 // * First part of projects *
@@ -257,7 +265,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 35px 0;
+  margin: 50px 0;
   p {
     color: black;
     font-weight: lighter;
@@ -270,13 +278,16 @@ body {
 .batman {
   margin-right: 30px;
   margin-top: 20px;
+  position: absolute;
+  top: 30px;
+  left: 65px;
 }
 
 @keyframes flyingBatman {
   0% {opacity: 1; transform: translatey(0px) scale(1);}
-  25%{opacity: 1; transform:translatey(10px) scale(1.0);}
-  26%{opacity: 0.7; transform:translatey(-10px) scale(1.0);}
-  55% {opacity: 0; transform: translatey(0px) scale(1);}
+  25%{opacity: 1; transform:translatey(-2px) scale(1.0);}
+  26%{opacity: 0.7; transform:translatey(1px) scale(1.0);}
+  55% {opacity: 0; transform: translatey(2px) scale(1);}
 }
 
 .introduction:hover .batman{
@@ -318,11 +329,29 @@ body {
   animation-timing-function:linear;
 }
 
+.white-wrapper {
+  background-color: white;
+}
 
+.abc {
+  border: 1px solid lightgray;
+}
 
+.image_and_name {
+  flex: 0 0 24%;
+  margin-right: 20px;
+  position: relative;
+}
 
+.shadow_name {
+  box-shadow: inset 0px -12px 0px 0px #03D39E;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: inherit;
+}
 
-
-
-
+.tag {
+  opacity: 0.8;
+font-weight: bold;
+}
 
