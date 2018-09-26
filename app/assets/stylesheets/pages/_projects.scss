@@ -19,11 +19,19 @@ body {
 }
 
 .container {
-  min-height: calc(70vh - 70px);
+  // min-height: calc(70vh - 70px);
   margin: 0 auto;
   width: 970px;
   background: white;
   // height: 50vh;
+}
+
+.container_2 {
+  // min-height: calc(70vh - 70px);
+  margin: 0 auto;
+  width: 970px;
+  background: white;
+  height: 150px;
 }
 
 // .container {
@@ -341,6 +349,7 @@ body {
   flex: 0 0 24%;
   margin-right: 20px;
   position: relative;
+  margin-top: -8px
 }
 
 .shadow_name {
@@ -355,3 +364,13 @@ body {
 font-weight: bold;
 }
 
+.my_skills {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  .fab {
+    font-size: 30px;
+  }
+}
