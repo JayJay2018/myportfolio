@@ -44,67 +44,87 @@
 </div>
 <div class="white-wrapper abc text-center">
   <div class="container_2">
-
-            <div class="my_skills">
-              <div class="key">
-                <%= button_tag "Technical", class: "btn btn_technical"%>
-                <%= button_tag "Fundamentals", class: "btn btn_fundamentals"%>
-                <%= button_tag "Soft-skills", class: "btn btn_soft_skills"%>
-              </div>
-              <h4 class="skills_headline">My skills</h4>
-              <ul class="list-inline">
-                <li><%= button_tag "RoR", class: "btn btn_technical"%></li>
-                <li><%= button_tag "React", class: "btn btn_technical"%></li>
-                <li><%= button_tag "MySQL", class: "btn btn_technical"%></li>
-                <li><%= button_tag "Bootstrap", class: "btn btn_technical"%></li>
-                <li><%= button_tag "Jquery", class: "btn btn_technical"%></li>
-                <li><%= button_tag "TDD", class: "btn btn_technical"%></li>
-              </ul>
-              <ul class="list-inline">
-                <li><i class="fab fa-html5"></i></li>
-                <li><i class="fab fa-css3-alt"></i></li>
-                <li alt="Javascript"><i class="fab fa-js"></i></li>
-                <li><i class="fab fa-git"></i></li>
-                <li><i class="fab fa-github-alt"></i></li>
-              </ul>
-              <ul class="list-inline">
-                <li><%= button_tag "Self-motivation", class: "btn_soft_skills"%></li>
-                <li><%= button_tag "Empathy", class: "btn_soft_skills"%></li>
-                <li><%= button_tag "Coordination", class: "btn_soft_skills"%></li>
-                <li><%= button_tag "Self-Management", class: "btn_soft_skills"%></li>
-                <li><%= button_tag "Calmness", class: "btn_soft_skills"%></li>
-                <li><%= button_tag "Decision Making", class: "btn_soft_skills"%></li>
-              </ul>
-           </div>
-          </div>
+    <div class="row">
+      <div class="my_skills">
+        <div class="key">
+          <%= button_tag "Technical", class: "btn btn_technical"%>
+          <%= button_tag "Fundamentals", class: "btn btn_fundamentals"%>
+          <%= button_tag "Soft-skills", class: "btn btn_soft_skills"%>
         </div>
-
-           <!-- <div class="my_soft_skills">
-
-          </div>
-           -->
-
-
-
-
-
-  <div class="row">
-    <div class="col-xs-12 col-md-4">
-      <div class="project" style="background-image: url('<%= image_path "recipeasy.png" %>')">
-        <%= link_to "", "http://www.recipeasy.de", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
-      </div>
-    </div>
-    <div class="col-xs-12 col-md-4">
-      <div class="project" style="background-image: url('<%= image_path "mrcocktail.png" %>')">
-        <%= link_to "", "http://www.jays-awesome-cocktails.herokuapp.com", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
-      </div>
-    </div>
-    <div class="col-xs-12 col-md-4">
-      <div class="project" style="background-image: url('<%= image_path "AirBnBPool.png" %>')">
-        <%= link_to "", "https://github.com/thefabian/AIRBNB_POOL_CLONE", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
+        <h4 class="skills_headline">My skills</h4>
+        <ul class="list-inline">
+          <li><%= button_tag "RoR", class: "btn btn_technical"%></li>
+          <li><%= button_tag "React", class: "btn btn_technical"%></li>
+          <li><%= button_tag "MySQL", class: "btn btn_technical"%></li>
+          <li><%= button_tag "Bootstrap", class: "btn btn_technical"%></li>
+          <li><%= button_tag "Jquery", class: "btn btn_technical"%></li>
+          <li><%= button_tag "TDD", class: "btn btn_technical"%></li>
+        </ul>
+        <ul class="list-inline">
+          <li><i class="fab fa-html5"></i></li>
+          <li><i class="fab fa-css3-alt"></i></li>
+          <li alt="Javascript"><i class="fab fa-js"></i></li>
+          <li><i class="fab fa-git"></i></li>
+          <li><i class="fab fa-github-alt"></i></li>
+        </ul>
+        <ul class="list-inline">
+          <li><%= button_tag "Self-motivation", class: "btn_soft_skills"%></li>
+          <li><%= button_tag "Empathy", class: "btn_soft_skills"%></li>
+          <li><%= button_tag "Coordination", class: "btn_soft_skills"%></li>
+          <li><%= button_tag "Self-Management", class: "btn_soft_skills"%></li>
+          <li><%= button_tag "Calmness", class: "btn_soft_skills"%></li>
+          <li><%= button_tag "Decision Making", class: "btn_soft_skills"%></li>
+        </ul>
       </div>
     </div>
   </div>
+</div>
+<div class="white-wrapper">
+  <div class="container_3 text-center">
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3">
+         <h4 class="projects_headline"></h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="project" style="background-image: url('<%= image_path "recipeasy.png" %>')">
+          <%= link_to "", "http://www.recipeasy.de", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
+          <!-- <h5>Recipeasy</h5> -->
+        </div>
+        <div>
+          <h5 class="project_headline">Recipeasy</h5>
+          <p class="project_description">The best recipes based on your available time, cuisine preferences and available ingredients. Open your fridge, discover the world of cooking. Everyone can cook!</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project" style="background-image: url('<%= image_path "mrcocktail.png" %>')">
+          <%= link_to "", "http://www.jays-awesome-cocktails.herokuapp.com", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
+        </div>
+        <div>
+          <h5 class="project_headline">MrCocktail</h5>
+          <p class="project_description">Find your favourite cocktail or add your special ones.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project" style="background-image: url('<%= image_path "AirBnBPool.png" %>')">
+          <%= link_to "", "https://github.com/thefabian/AIRBNB_POOL_CLONE", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
+        </div>
+          <h5 class="project_headline">AirBnB-Pool</h5>
+          <p class="project_description">A nice AirBnB-Clone, where you can book your favourite pool for the weekend and invite your friends to hang out together. As we had a tremendous summer in 2018, this is the place to be.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p id="lol">Hello</p>
+
+
+
+
+
+
+
 
 
 

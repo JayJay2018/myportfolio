@@ -35,6 +35,15 @@ body {
   height: 200px;
 }
 
+.container_3 {
+  // min-height: calc(70vh - 70px);
+  position: relative;
+  margin: 30px auto;
+  width: 970px;
+  background: white;
+  min-height: 400px;
+}
+
 
 // * First part of projects *
 
@@ -312,8 +321,10 @@ body {
   -ms-transform: scale(1.1,1.1); /* IE 9 */
   -webkit-transform: scale(1.1,1.1); /* Safari */
   transform: scale(1.1,1.1);
+
   // -webkit-transition: transform 0.5s ease;
 }
+
 
 .button_projects:hover {
   text-decoration: none;
@@ -536,6 +547,23 @@ body {
   left: 34%;
 }
 
+.projects_headline {
+  margin: 30px auto;
+}
+
+.project_headline {
+  font-size: 20px;
+}
+
+.project_description {
+  opacity: 0.8;
+  text-align: -webkit-match-parent;
+}
+
+.project:hover .project_description {
+  color: #03D39E;
+  cursor: pointer;
+}
 
 
 
