@@ -101,10 +101,12 @@ body {
   color: black;
   font-weight: bold;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .msg_me_link:hover {
   color: black;
+  text-decoration: none;
 
 }
 
@@ -346,7 +348,7 @@ body {
 }
 
 .abc {
-  border: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .image_and_name {
