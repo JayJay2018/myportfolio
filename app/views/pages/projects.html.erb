@@ -93,8 +93,10 @@
           <!-- <h5>Recipeasy</h5> -->
         </div>
         <div>
-          <h5 class="project_headline">Recipeasy</h5>
-          <p class="project_description">The best recipes based on your available time, cuisine preferences and available ingredients. Open your fridge, discover the world of cooking. Everyone can cook!</p>
+          <%= link_to "http://www.recipeasy.de", class: "link_to_projects" do %>
+            <h5 class="project_headline">Recipeasy</h5>
+            <p class="project_description">The best recipes based on your available time, cuisine preferences and available ingredients. Open your fridge, discover the world of cooking. Everyone can cook!</p>
+          <% end %>
         </div>
       </div>
       <div class="col-md-4">
@@ -102,16 +104,20 @@
           <%= link_to "", "http://www.jays-awesome-cocktails.herokuapp.com", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
         </div>
         <div>
-          <h5 class="project_headline">MrCocktail</h5>
-          <p class="project_description">Find your favourite cocktail or add your special ones.</p>
+          <%= link_to "http://www.jays-awesome-cocktails.herokuapp.com", class: "link_to_projects" do %>
+            <h5 class="project_headline">MrCocktail</h5>
+            <p class="project_description">Find your favourite cocktail or add your special ones.</p>
+          <% end %>
         </div>
       </div>
       <div class="col-md-4">
         <div class="project" style="background-image: url('<%= image_path "AirBnBPool.png" %>')">
           <%= link_to "", "https://github.com/thefabian/AIRBNB_POOL_CLONE", target: "_blank", class: "fas fa-arrow-circle-right button_projects" %>
         </div>
-          <h5 class="project_headline">AirBnB-Pool</h5>
-          <p class="project_description">A nice AirBnB-Clone, where you can book your favourite pool for the weekend and invite your friends to hang out together. As we had a tremendous summer in 2018, this is the place to be.</p>
+          <%= link_to "https://github.com/thefabian/AIRBNB_POOL_CLONE", class: "link_to_projects" do%>
+            <h5 class="project_headline">AirBnB-Pool</h5>
+            <p class="project_description">A nice AirBnB-Clone, where you can book your favourite pool for the weekend and invite your friends to hang out together. As we had a tremendous summer in 2018, this is the place to be.</p>
+          <% end %>
       </div>
     </div>
   </div>
