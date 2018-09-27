@@ -1,9 +1,11 @@
 <div class="navbar-portfolio">
   <!-- Logo -->
-  <div href="/" class="navbar-jay-name">
-    <%= image_tag "jf.png", alt: "Logo" %>
-    <h4 id="name">Jascha Rafael Franke</h4>
-    <h6 id="job-title">A Junior Full Stack Developer</h6>
+  <div class="navbar-jay-name">
+    <%= link_to root_path, class: "link_name" do %>
+      <%= image_tag "jf.png", alt: "Logo" %>
+      <h4 id="name">Jascha Rafael Franke</h4>
+      <h6 id="job-title">A Junior Full Stack Developer</h6>
+    <% end %>
   </div>
 
 
