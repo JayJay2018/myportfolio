@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
+  height: 60px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
 }
@@ -36,15 +36,34 @@
   color: black;
   text-decoration: none;
   outline:none;
-  width: 40px;
+  height: 40px;
   padding: 10px;
   opacity: 0.7;
 }
 
-.nav_bar > a:hover {
-  color: #03D39E;
+.nav_bar > #email:hover {
   opacity: 1.0;
-  transform: scale(1.4);
-  background: #F4F4F4;
-
+  background: #00D3A3;
+  border-radius: 50%;
 }
+
+.nav_bar > #twitter:hover {
+  opacity: 1.0;
+  background: #00A3EC;
+  border-radius: 50%;
+}
+
+.nav_bar > #linkedin:hover {
+  opacity: 1.0;
+  background: #0079B0;
+  border-radius: 50%;
+}
+
+.nav_bar > #github:hover {
+  opacity: 1.0;
+  background: black;
+  border-radius: 50%;
+  color: white;
+}
+
+
