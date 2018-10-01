@@ -22,6 +22,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'font-awesome-sass'
 gem 'bootstrap-sass'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'postmark-rails'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
